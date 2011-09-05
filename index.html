@@ -6,6 +6,7 @@
 <body> 
 
 <p>Funguje to</p>
+<?php echo "nefunguje to"; ?>
 
 </body> 
 </html> 
