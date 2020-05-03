@@ -1,12 +1,79 @@
-<!DOCTYPE html> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">	
-<head> 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-</head> 
-<body> 
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+	      <meta charset="UTF-8">
+        <title>Web developer, Peter Láng</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, viewport-fit=cover">
+    </head>
+    <body>
+        <style>
+         body{
+	           font-size: 100%;
+	           font-family: Verdana, Arial, Courier, sans-serif;
+         }
+         ul {
+             
+         }
+         #logo {
+             margin: 20px 0px 0 30px;
+         }
+         .h-box {
+             display: flex;
+         }
+         .head {
+             /* margin: 20px 0 20px 20px; */
+         }
+         .primary {
+             font-size: 120%;
+             line-height: 180%;
+             margin: 0;
+             padding: 0;
+         }
+         .primary li {
+             list-style: none;
+         }
+         .secondary {
+             color: gray;
+             font-size: 90%;
+             margin: 0;
+             padding: 0;
+         }
+         .secondary li {
+             list-style: none;
+         }
+        </style>
 
-<p>Funguje to</p>
-<?php echo "nefunguje to"; ?>
+        
+        
+        <div class="head h-box">
+            
+            <h1>Peter Láng, web developer</h1>
+            <!--
+                 <img id="logo" src="https://langi.cz/homepage/img/logo_langi.png" alt="logo" />
+            -->
+        </div>
 
-</body> 
-</html> 
+
+        <div class="h-box">
+            <ul class="primary no-bullets-list">
+                <li>Web, informační systémy, webové aplikace.</li>
+                <li>Clojure, ClojureScript</li>
+                <li><a href="mailto:lang&#64;langi.cz">lang&#64;<!-- -->langi.cz</a></li>
+            </ul>
+
+            <ul class="secondary no-bullets-list">
+				        <li>Peter Láng</li>
+				        <li>Terezín 129</li>
+				        <li>696 14 Terezín</li>
+				        <li>IČ: 87485435</li>
+				        <li>Fyzická osoba zapsaná v živnostenském rejstříku, neplátce DPH</li>
+		        </ul>
+        </div>
+
+        <img id="logo" src="https://langi.cz/homepage/img/logo_langi.png" alt="logo" />
+
+    
+
+
+</body>
+</html>
